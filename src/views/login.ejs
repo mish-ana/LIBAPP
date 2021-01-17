@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .container {
+            background-color: wheat;
+            text-align: center;
+            border-radius: 2%;
+            padding: 1%;
+            margin-right: 32%;
+            margin-left: 32%;
+            margin-top: 15%;
+            border: 2px solid black;
+        }
+        
+        .user {
+            text-align: center;
+            width: 60%;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        
+        .pass {
+            text-align: center;
+            width: 60%;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        
+        input[type=username]:focus {
+            outline: 2px solid blue;
+        }
+        
+        input[type=password]:focus {
+            outline: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Login</h1>
+
+
+
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <form method="POST" action="/login/sumbit">
+                    <h3>Username</h3>
+                    <input type="username" placeholder="username" class="user">
+                    <br>
+                    <h3>Password</h3>
+                    <input type="password" placeholder="password" class=" pass">
+                    <br>
+                    <br>
+                    <button>login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
